@@ -16,9 +16,9 @@
 		<div id="content">
 			<div id="user">
 				<h1>login</h1>
-				<%-- <c:forEach var="list" items="${lists }" varStatus="status">
+				<c:forEach var="list" items="${lists }" varStatus="status">
 					<p>${list }</p>
-				</c:forEach> --%>
+				</c:forEach>
 				<form id="login-form" name="loginform" method="post" action="">
 					<label class="block-label" for="email">이메일</label>
 					<input id="email" name="email" type="text" value="">
@@ -30,7 +30,6 @@
 				
 			</div>
 		</div>
-		<c:import url="/WEB-INF/views/includes/footer.jsp" />
 	</div>
 </body>
 </html>

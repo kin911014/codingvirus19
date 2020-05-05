@@ -6,5 +6,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>codingvirus19</module>
+  	<module>document</module>
   </modules>
 </project>

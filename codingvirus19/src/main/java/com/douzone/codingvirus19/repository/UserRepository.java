@@ -14,11 +14,10 @@ public class UserRepository {
 	private SqlSession sqlSession;
 
 	public List<UserVo> findAll() {
-		return sqlSession.selectOne("user.findAll");
+		List <UserVo> userLists = sqlSession.selectList("user.findAll");
+		// * List로 return값을 받아 올 때에는 selectList를 사용할 것 사용안할 시(selectOne 사용 시) cast오류 발생!
+		return userLists;
 	}
 	
-//	public UserVo findAll() {
-//		return sqlSession.selectOne("user.findAll");
-//	}
 
 }

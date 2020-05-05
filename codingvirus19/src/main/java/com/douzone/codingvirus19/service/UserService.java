@@ -15,12 +15,10 @@ public class UserService {
 	private UserRepository userRepository;
 
 	public List<UserVo> findAll() {
-		return userRepository.findAll();
+		List <UserVo> userLists = userRepository.findAll();
+		return userLists;
 	}
 	
-//	public UserVo findAll() {
-//		
-//	}
 
 
 }

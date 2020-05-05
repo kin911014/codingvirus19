@@ -7,6 +7,7 @@ public class UserVo {
 	private String password;
 	private String nickname;
 	private String image;
+	private String name;
 
 	public Long getNo() {
 		return no;
@@ -64,7 +65,6 @@ public class UserVo {
 		this.name = name;
 	}
 
-	private String name;
 
 	@Override
 	public String toString() {
