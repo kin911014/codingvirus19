@@ -55,10 +55,10 @@ spring:
    # datasource
    datasource:
       driver-class-name: org.mariadb.jdbc.Driver
-      url: jdbc:mysql://127.0.0.1:3306/webdb
+      url: jdbc:mysql://192.168.1.222:3307/coding19
 ### / *url 연결, local로 db와 연결을 위해 127.0.0.1:3306/webdb로 연결 진행 
-      username: webdb
-      password: webdb
+      username: coding19
+      password: coding19
       initialSize: 10
       maxActive: 100
 
